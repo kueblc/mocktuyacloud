@@ -37,6 +37,8 @@ API["tuya.device.upgrade.silent.get"] = params => {
 }
 
 // link any new devices, MockTuyaApi handles issuing keys
+// I tweaked some timing in my version that speeds it up and possibly more reliable
+// I oughta do some more testing and submit changes upstream
 const TuyaLink = require('@tuyapi/link').manual
 const link = new TuyaLink
 
