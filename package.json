@@ -1,0 +1,37 @@
+{
+  "name": "mocktuyacloud",
+  "version": "1.0.0",
+  "description": "Framework to emulate Tuya cloud services",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kueblc/mocktuyacloud.git"
+  },
+  "keywords": [
+    "iot",
+    "smart",
+    "home",
+    "automation",
+    "tuya",
+    "cloud",
+    "mqtt"
+  ],
+  "author": "kueblc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kueblc/mocktuyacloud/issues"
+  },
+  "homepage": "https://github.com/kueblc/mocktuyacloud#readme",
+  "dependencies": {
+    "@tuyapi/link": "^0.2.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mosca": "^2.8.3"
+  }
+}

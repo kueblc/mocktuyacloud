@@ -1,0 +1,12 @@
+[
+	{"mode": "rw","property": {"type": "bool"},"id": 1,"type": "obj"},
+	{"mode": "rw","property": {"type": "bool"},"id": 2,"type": "obj"},
+	{"mode": "rw","property": {"type": "bool"},"id": 3,"type": "obj"},
+	{"mode": "rw","property": {"type": "bool"},"id": 4,"type": "obj"},
+	{"mode": "rw","property": {"type": "bool"},"id": 7,"type": "obj"},
+	{"mode": "rw","property": {"min": 0,"max": 86400,"scale": 0,"step": 1,"type": "value"},"id": 101,"type": "obj"},
+	{"mode": "rw","property": {"min": 0,"max": 86400,"scale": 0,"step": 1,"type": "value"},"id": 102,"type": "obj"},
+	{"mode": "rw","property": {"min": 0,"max": 86400,"scale": 0,"step": 1,"type": "value"},"id": 103,"type": "obj"},
+	{"mode": "rw","property": {"min": 0,"max": 86400,"scale": 0,"step": 1,"type": "value"},"id": 104,"type": "obj"},
+	{"mode": "rw","property": {"min": 0,"max": 86400,"scale": 0,"step": 1,"type": "value"},"id": 105,"type": "obj"}
+]
