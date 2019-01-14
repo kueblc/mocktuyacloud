@@ -31,18 +31,22 @@ When done hit Ctrl-C and the cloud goes poof
 At this point you should have a FinalStage SSID from your Tuya device and you can continue with stage two
 
 ## TODO
-[ ] learn to organize
-[ ] automate firmware header generation and packaging
-[ ] possibly automate second & third stage or pass off to another script
-[ ] foolproof the firmware procedure
-[ ] move specific use cases into an examples folder
-[ ] refactor device-info
-[ ] more thanks
-[ ] flesh out todo list
+- [ ] learn to organize
+- [ ] automate firmware header generation and packaging
+- [ ] possibly automate second & third stage or pass off to another script
+- [ ] foolproof the firmware procedure
+- [ ] move specific use cases into an examples folder
+- [ ] refactor device-info
+- [ ] more thanks
+- [ ] flesh out todo list
+- [ ] add appropriate license(s) and cite borrowed code
 
 ## Thanks
 @drushbrook for capture of OTA firmware update
+
 @codetheweb et al for tuyapi
+
 @SynAckFin for discovery and development of two stage firmware strategy
+
 Many more
 
