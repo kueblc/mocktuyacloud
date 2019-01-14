@@ -3,6 +3,8 @@ Intended to be a general purpose framework for interacting with Tuya devices wit
 
 Currently geared toward uploading custom firmware over the air for [https://github.com/codetheweb/tuyapi/issues/49]
 
+Feel free to take part either by applying any part of this code to your project or by submitting code, logs, feedback, suggestions, data back my way
+
 ## Work in progress! Please do not use this unless you really know what you are doing. You can break things with this! That's on you
 
 ## Steps to upload a custom firmware
