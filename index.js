@@ -25,8 +25,8 @@ function reconnectDevices( ssid, passwd, ids = [] ){
 // override the tuya.device.upgrade.silent.get api call
 const API = require('./lib/api')
 
-API["tuya.device.upgrade.silent.get"] = params => {}
-/*	if( ids.includes(params.gwId) || !ids.length )
+API["tuya.device.upgrade.silent.get"] = params => {
+	if( ids.includes(params.gwId) || !ids.length )
 		return {
 			"url": "http://a.tuyaus.com/firmware.bin",
 			"type": 0,
@@ -34,7 +34,7 @@ API["tuya.device.upgrade.silent.get"] = params => {}
 			"md5": "79e9748319d7ad888f2deff16a87a296",
 			"version": "4.2.0",
 		}
-}*/
+}
 
 // link any new devices, MockTuyaApi handles issuing keys
 const TuyaLink = require('@tuyapi/link').manual
