@@ -22,6 +22,7 @@ sudo echo "Creating network at $SSID"
 sudo create_ap -n wlan0 -e $HOSTS -g $GATEWAY $SSID $PASSWD &
 sleep 5
 
+sudo setcap 'cap_net_bind_service=+ep' `command -v node`
 node index
 
 sudo killall create_ap
