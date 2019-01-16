@@ -24,11 +24,14 @@ Then run or follow ota-firmware.sh which will
 * create a MockTuyaCloud instance with appropriate MQTT and API handling
 * encourage unlinked devices to connect to it
 * encourage existing devices to switch to it
+* ask devices to upgrade via MQTT
 * serve the first stage firmware file
 
 When done hit Ctrl-C and the cloud goes poof
 
-At this point you should have a FinalStage SSID from your Tuya device and you can continue with stage two
+At this point your device should be broadcasting a FinalStage SSID, this means you successfully flashed the device and no longer have Tuya firmware. You can continue with stage two in order to complete Tasmota installation.
+
+You can serve stage two by connecting to the FinalStage AP and running `python -m SimpleHTTPServer 8080` inside the firmware directory. You should see ota/image_arduino.bin being requested. You can then connect to the sonoff-**** AP and browse to http://192.168.4.1/ to configure your WiFi credentials. Finally, connect back to your network and browse to your device's IP address to complete your Tasmota configuration, including setting module and MQTT information.
 
 ## TODO
 - [ ] learn to organize
@@ -47,6 +50,8 @@ At this point you should have a FinalStage SSID from your Tuya device and you ca
 @codetheweb et al for tuyapi
 
 @SynAckFin for discovery and development of two stage firmware strategy
+
+@GeorgeIoak and @mssmison for testing and debugging
 
 Many more
 
