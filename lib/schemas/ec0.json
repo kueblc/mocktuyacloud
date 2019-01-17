@@ -1,0 +1,12 @@
+[
+	{"mode":"rw","property":{"type":"bool"},"id":1,"type":"obj"},
+	{"mode":"rw","property":{"range":["white","colour","scene","scene_1","scene_2","scene_3","scene_4"],"type":"enum"},"id":2,"type":"obj"},
+	{"mode":"rw","property":{"min":25,"max":255,"scale":0,"step":1,"type":"value"},"id":3,"type":"obj"},
+	{"mode":"rw","property":{"min":0,"max":255,"scale":0,"step":1,"type":"value"},"id":4,"type":"obj"},
+	{"mode":"rw","property":{"type":"string","maxlen":14},"id":5,"type":"obj"},
+	{"mode":"rw","property":{"type":"string","maxlen":14},"id":6,"type":"obj"},
+	{"mode":"rw","property":{"type":"string","maxlen":14},"id":7,"type":"obj"},
+	{"mode":"rw","property":{"type":"string","maxlen":44},"id":8,"type":"obj"},
+	{"mode":"rw","property":{"type":"string","maxlen":14},"id":9,"type":"obj"},
+	{"mode":"rw","property":{"type":"string","maxlen":44},"id":10,"type":"obj"}
+]

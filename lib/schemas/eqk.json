@@ -1,0 +1,4 @@
+[
+	{"mode":"rw","property":{"type":"bool"},"id":1,"type":"obj"},
+	{"mode":"rw","property":{"min":25,"max":255,"scale":0,"step":1,"type":"value"},"id":2,"type":"obj"}
+]
