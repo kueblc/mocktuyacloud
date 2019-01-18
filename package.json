@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/kueblc/mocktuyacloud#readme",
   "dependencies": {
-    "@tuyapi/link": "^0.2.1",
     "body-parser": "^1.18.3",
+    "delay": "^4.1.0",
     "express": "^4.16.4",
     "mosca": "^2.8.3",
     "mqtt": "^2.18.8"
