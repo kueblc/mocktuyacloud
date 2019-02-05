@@ -5,6 +5,8 @@ Currently geared toward uploading custom firmware over the air for [https://gith
 
 Feel free to take part either by applying any part of this code to your project or by submitting code, logs, feedback, suggestions, data back my way
 
+### Note: For the purposes of flashing custom firmware, I now recommend tuya-convert as it is better supported and designed strictly for this purpose
+
 ## Work in progress! Please do not use this unless you really know what you are doing. You can break things with this! That's on you
 
 ## Steps to upload a custom firmware
