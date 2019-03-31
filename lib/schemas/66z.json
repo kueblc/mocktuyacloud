@@ -1,0 +1,8 @@
+[
+	{"mode":"rw","property":{"type":"bool"},"id":1,"type":"obj"},
+	{"mode":"rw","property":{"min":0,"max":86400,"scale":0,"step":1,"type":"value"},"id":2,"type":"obj","passive":true},
+	{"mode":"ro","property":{"min":0,"max":500000,"scale":3,"step":100,"type":"value"},"id":3,"type":"obj"},
+	{"mode":"ro","property":{"min":0,"max":30000,"scale":0,"step":1,"type":"value"},"id":4,"type":"obj"},
+	{"mode":"ro","property":{"min":0,"max":50000,"scale":0,"step":1,"type":"value"},"id":5,"type":"obj"},
+	{"mode":"ro","property":{"min":0,"max":2500,"scale":0,"step":1,"type":"value"},"id":6,"type":"obj"}
+]
